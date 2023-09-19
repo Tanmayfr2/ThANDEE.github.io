@@ -1,0 +1,223 @@
+.logo{
+    width: 160px;
+    margin: 5px;
+}
+.bg-theme{
+    padding: 0px;
+    background-color: #132f57;
+}
+.brand-logo{
+     width: 90px;
+    margin-left: 20px;
+    display: none;
+}
+.logo-head {
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: emoji;
+}
+.ico-icon{
+    margin-top: 20px;
+    margin-right: 155px;
+    position: absolute;
+    right: 0;
+}
+.ico-icon .fa-brands{
+    border: 1px solid gray;
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 100%;
+    padding: 10px;
+    color: #0056f3;
+}
+.ico-icon .fa-brands:hover{ 
+    width: 55px;
+    height: 55px;
+    border: none;
+    background-color: yellow;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff;
+    margin-right: 120px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: black;
+    background-color: #ffb516;
+}
+.navbar-expand-lg .navbar-nav .activate>.navbar-link, .navbar-expand-lg navbar-nav .nav-link.activate, .navbar-expand-lg .navbar-
+nav .nav-link.show, .navbar-expand-lg .navbar-nav.show> .navbar-link {
+    color: black;
+    background-color: #ffb516;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.outer-right{
+    text-align: center;
+    width: 315px;
+    background-image: url(../images/logbg.jpg);
+}
+.outer-right h4{
+    color: #ff992f;
+}
+.outer-right h5{
+    color: #4bff00;
+    padding-bottom: 20px
+}
+.carousel-item h2{
+    padding: none;
+    background-color: red;
+    text-align: center;
+    color: greenyellow;
+}
+.mrq{
+    padding: 85px 0px 50px;
+    text-align: center;
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mrq2{
+    padding: 85px 0px 50px;
+    text-align: center;
+    background-image: url(../images/img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mrq3{
+    padding: 85px 0px 50px;
+    text-align: center;
+    background-image: url(../images/img3.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+.mrq b, .mrq2, .mrq3 b{
+    color: maroon;
+}
+.mrq h3, .mrq2 h3, .mrq3 h3{
+    color: #4400ca;
+}
+.get-btn{
+    background: none;
+    margin-top: 15px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 96px;
+    border: 1px solid white;
+    padding: 10px 33px;
+}
+.get-btn:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.footer {
+    margin-top: 50px;
+    background-color: #132f57;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0px;
+}
+/*sticky*/
+.sticky{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+}
+.sticky + .content{
+    margin-top: 30px;
+}
+/*about us page*/
+.heading-about{
+    padding: 5px;
+    background-color: brown;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+}
+.img-about-style{
+    border: 20px solid #00c0d0;
+    border-radius: 26px;
+}
+/*mission and vision*/
+.head-mmg{
+    margin-top: 150px;
+    border: 10px solid gray;
+    border-radius: 19px;
+}
+.heading-ff{
+    padding: 5px;
+    text-align: center;
+    color: #2fb194;
+    font-weight: bold;
+}
+.f-mmg{
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.techers-img{
+    border: 2px solid gray;
+    border-radius: 100%;
+}
+.container{
+    text-align: justify;
+}
+@media only screen and (max-width: 768px){
+    .ico-icon{
+        margin-right: 0px;
+    }
+    .ico-icon .fa-brands{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    }
+    .logo-head {
+    margin-top: 30px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{ 
+    padding-left: 13px;
+    margin-right: 0px;
+    }
+	.logo{
+		display: none;
+	}
+	.brand-logo{
+	display: none;
+    }
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.top-header{
+    background-color: darkblue;
+}
+.log{
+    color: white;
+}
+.form-outer{
+    margin-top: 100px;
+    border: 1px solid gray;
+    padding: 24px;
+    background-color: #132f57;
+    box-shadow: 1px 3px 7px 4px grey;
+}
+.wclm{
+    background-color: green;
+}
